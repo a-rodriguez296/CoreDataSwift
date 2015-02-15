@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B80ABE6F829907AC93E733 /* libPods-EverPobreSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DADA126F61B1B052649AD7 /* libPods-EverPobreSwift.a */; };
 		3503B9041A8FE47A001BB31E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503B9031A8FE47A001BB31E /* AppDelegate.swift */; };
 		3503B9061A8FE47A001BB31E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503B9051A8FE47A001BB31E /* ViewController.swift */; };
 		3503B9091A8FE47A001BB31E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3503B9071A8FE47A001BB31E /* Main.storyboard */; };
 		3503B90B1A8FE47A001BB31E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3503B90A1A8FE47A001BB31E /* Images.xcassets */; };
 		3503B90E1A8FE47A001BB31E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3503B90C1A8FE47A001BB31E /* LaunchScreen.xib */; };
 		3503B91A1A8FE47A001BB31E /* EverPobreSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503B9191A8FE47A001BB31E /* EverPobreSwiftTests.swift */; };
+		3503B9261A8FE810001BB31E /* KIBaseFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3503B9251A8FE810001BB31E /* KIBaseFetchedResultsController.m */; };
+		3503B9291A8FE8FF001BB31E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3503B9271A8FE8FF001BB31E /* Model.xcdatamodeld */; };
+		3503B92C1A8FEBB5001BB31E /* _Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503B92A1A8FEBB5001BB31E /* _Notes.swift */; };
+		3503B92D1A8FEBB5001BB31E /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3503B92B1A8FEBB5001BB31E /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,15 @@
 		3503B9131A8FE47A001BB31E /* EverPobreSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverPobreSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3503B9181A8FE47A001BB31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3503B9191A8FE47A001BB31E /* EverPobreSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverPobreSwiftTests.swift; sourceTree = "<group>"; };
+		3503B9231A8FE810001BB31E /* EverPobreSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EverPobreSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		3503B9241A8FE810001BB31E /* KIBaseFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIBaseFetchedResultsController.h; sourceTree = "<group>"; };
+		3503B9251A8FE810001BB31E /* KIBaseFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIBaseFetchedResultsController.m; sourceTree = "<group>"; };
+		3503B9281A8FE8FF001BB31E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3503B92A1A8FEBB5001BB31E /* _Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Notes.swift; sourceTree = "<group>"; };
+		3503B92B1A8FEBB5001BB31E /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		4BECD361D0D64A2178845170 /* Pods-EverPobreSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EverPobreSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EverPobreSwift/Pods-EverPobreSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		60DADA126F61B1B052649AD7 /* libPods-EverPobreSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EverPobreSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662F96393BC074D7A96AB667 /* Pods-EverPobreSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EverPobreSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-EverPobreSwift/Pods-EverPobreSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B80ABE6F829907AC93E733 /* libPods-EverPobreSwift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +71,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01403667298232CA19468578 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60DADA126F61B1B052649AD7 /* libPods-EverPobreSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3503B8F51A8FE47A001BB31E = {
 			isa = PBXGroup;
 			children = (
 				3503B9001A8FE47A001BB31E /* EverPobreSwift */,
 				3503B9161A8FE47A001BB31E /* EverPobreSwiftTests */,
 				3503B8FF1A8FE47A001BB31E /* Products */,
+				EDFE07D4213965899E8AC2BC /* Pods */,
+				01403667298232CA19468578 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +102,14 @@
 		3503B9001A8FE47A001BB31E /* EverPobreSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3503B92E1A8FEBC6001BB31E /* Core Data */,
 				3503B9031A8FE47A001BB31E /* AppDelegate.swift */,
 				3503B9051A8FE47A001BB31E /* ViewController.swift */,
 				3503B9071A8FE47A001BB31E /* Main.storyboard */,
 				3503B90A1A8FE47A001BB31E /* Images.xcassets */,
 				3503B90C1A8FE47A001BB31E /* LaunchScreen.xib */,
 				3503B9011A8FE47A001BB31E /* Supporting Files */,
+				3503B9231A8FE810001BB31E /* EverPobreSwift-Bridging-Header.h */,
 			);
 			path = EverPobreSwift;
 			sourceTree = "<group>";
@@ -112,6 +139,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3503B92E1A8FEBC6001BB31E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				3503B9241A8FE810001BB31E /* KIBaseFetchedResultsController.h */,
+				3503B9251A8FE810001BB31E /* KIBaseFetchedResultsController.m */,
+				3503B92A1A8FEBB5001BB31E /* _Notes.swift */,
+				3503B92B1A8FEBB5001BB31E /* Notes.swift */,
+				3503B9271A8FE8FF001BB31E /* Model.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		EDFE07D4213965899E8AC2BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BECD361D0D64A2178845170 /* Pods-EverPobreSwift.debug.xcconfig */,
+				662F96393BC074D7A96AB667 /* Pods-EverPobreSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3503B91D1A8FE47A001BB31E /* Build configuration list for PBXNativeTarget "EverPobreSwift" */;
 			buildPhases = (
+				19B97E7C677C32645F4BBE1B /* Check Pods Manifest.lock */,
 				3503B8FA1A8FE47A001BB31E /* Sources */,
 				3503B8FB1A8FE47A001BB31E /* Frameworks */,
 				3503B8FC1A8FE47A001BB31E /* Resources */,
+				930F7F85557132D0D00EEB2D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +257,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19B97E7C677C32645F4BBE1B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		930F7F85557132D0D00EEB2D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EverPobreSwift/Pods-EverPobreSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3503B8FA1A8FE47A001BB31E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3503B9061A8FE47A001BB31E /* ViewController.swift in Sources */,
+				3503B9261A8FE810001BB31E /* KIBaseFetchedResultsController.m in Sources */,
 				3503B9041A8FE47A001BB31E /* AppDelegate.swift in Sources */,
+				3503B9291A8FE8FF001BB31E /* Model.xcdatamodeld in Sources */,
+				3503B92C1A8FEBB5001BB31E /* _Notes.swift in Sources */,
+				3503B92D1A8FEBB5001BB31E /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,21 +421,28 @@
 		};
 		3503B91E1A8FE47A001BB31E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BECD361D0D64A2178845170 /* Pods-EverPobreSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EverPobreSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EverPobreSwift/EverPobreSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		3503B91F1A8FE47A001BB31E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662F96393BC074D7A96AB667 /* Pods-EverPobreSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EverPobreSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EverPobreSwift/EverPobreSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +499,7 @@
 				3503B91F1A8FE47A001BB31E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3503B9201A8FE47A001BB31E /* Build configuration list for PBXNativeTarget "EverPobreSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,8 +508,22 @@
 				3503B9221A8FE47A001BB31E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3503B9271A8FE8FF001BB31E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3503B9281A8FE8FF001BB31E /* Model.xcdatamodel */,
+			);
+			currentVersion = 3503B9281A8FE8FF001BB31E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3503B8F61A8FE47A001BB31E /* Project object */;
 }
